@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  padding-top: 20px;
+}
+
+header .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+  
+}
+
+.inicio .imagem{
+  display: flex;
+  justify-content: center;
+  width: 1020px;
+  background-color: rgb(180, 177, 177);
+  margin: 0 auto;
+}
+
+.inicio {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 96px 16px 0px 16px;
+}
+
+.inicio .texto-inicio {
+  padding: 0px 150px;
+}
+
+ul.nav { 
+	padding: 10px;
+	}
+	
+ul.nav li {
+	list-style:none;	
+	display:inline;
+
+	}
+ul.nav li a {
+	float:left;
+  margin-right: 5px;
+	}
+
+ul.nav a:hover{
+  background:#999;
+  color: black
+  }
+
+  ol.lista {
+  margin: 20px;
+  }
+
+  .pagina-1 {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 96px 16px 0px 16px;
+  }
+  
+  .pagina-1 .texto-inicio {
+    padding: 0px 150px;
+  }
+
+  .pagina-2 {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 96px 16px 0px 16px;
+  }
+  
+  .pagina-2 .texto-inicio {
+    padding: 0px 150px;
+  }
+
+  .formulario{
+    margin: 20px 0px;
+  }
+  
+
+  .botao:hover{
+    background:#999;
+    color: black
+  }
+
+h1 { 
+  margin: 20px 0px;
+}
+
+p {
+  margin: 16px 0px;
+}
+
+
+.rodape-inicio{
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+.rodape-pagina1{
+  display: flex;
+  justify-content: center;
+  margin-top: 450px;
+}
+.rodape-pagina2{
+  display: flex;
+  justify-content: center;
+  margin-top: 450px;
+}
